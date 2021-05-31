@@ -1,0 +1,28 @@
+{
+    "info": "Please add an item!",
+    "add": "Add",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "item": "Item",
+    "itemPlaceholder": "e.g. Bread",
+    "date": "Date",
+    "time": "Time",
+    "count": "Count",
+    "list": "Items on your list:",
+    "search": "Search in you list",
+    "delete": "Delete",
+    "deleteMessage": "Are you sure you want to delete this item?",
+    "yes": "Yes",
+    "no": "No",
+    "update": "Update",
+    "alertTitle": "Get Notification for you outdated shopping items",
+    "alertMessage": 
+    "Please grant us permission to send you a push notification on your device every time one of your shopping list items is out of date.",
+    "alertTipp": "Please press the 'Activate notifications' button in the navigation menu (top left of the screen).",
+    "activateNotifications": "Activate notifications",
+    "alertNotifications": "This browser does not support notifications.",
+    "notificationBody": "Thank you for subscribing to our Notification service!",
+    "notificationTitle": "Successfully subscribed!"
+}

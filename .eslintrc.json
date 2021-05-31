@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/base",
+        "plugin:vue/strongly-recommended",
+        "plugin:vue/recommended",
+        "plugin:vue/essential"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "warn",
+        "no-dupe-args": "error",
+        "no-dupe-else-if": "error",
+        "no-dupe-keys": "error",
+        "no-empty": "error",
+        "no-extra-boolean-cast": "error",
+        "no-extra-parens": "error",
+        "no-extra-semi": "error",
+        "no-unreachable": "error",
+        "no-delete-var": "error",
+        "no-label-var": "error",
+        "no-undef": "error",
+        "no-unused-vars": "error",
+        "no-use-before-define": "error",
+        "no-shadow-restricted-names": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-var": "error",
+        "no-magic-numbers": "error",
+        "vue/html-self-closing": "off",
+        "vue/valid-template-root": "off",
+        "vue/max-attributes-per-line": "off",
+        "vue/attribute-hyphenation": "off",
+        "vue/require-prop-types": "off"
+    }
+}
