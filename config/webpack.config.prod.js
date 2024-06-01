@@ -10,7 +10,6 @@ const createAttributeRemover = require('vue-remove-attributes');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const webapckBase = require('./webpack.config');
 
@@ -129,7 +128,6 @@ module.exports = merge(
 				swSrc: './src/service-worker.js',
 				swDest: './service-worker.js',
 			}),
-			new BundleAnalyzerPlugin(),
 		],
 	}
 );
